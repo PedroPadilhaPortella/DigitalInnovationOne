@@ -1,0 +1,38 @@
+/*CSS*/
+
+body{
+    text-align: center;
+    background-color: rgba(80, 18, 88);
+    color: whitesmoke;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+#pzin{
+    font-size: 20px;
+    color: red;
+}
+
+button{
+    height: 40px;
+    width: 180px;
+}
+
+.dives{
+    margin: 30px;
+}
+
+input{
+    height: 30px;
+    font-size: 16px;
+}
+
+p{
+    font-size: 2em;
+}
+
+button{
+    font-size: 18px;
+}

@@ -1,0 +1,59 @@
+/*CSS*/
+.navbar-background{
+    background-color: #3498DB;
+}
+.quem-somos{
+    background-color: darkslategray;
+    color: whitesmoke;
+    height: 500px;
+}
+
+.background-image{
+    background-image: url(images/game.jpg);
+}
+
+h1{
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.margin{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    font: 20px Fantasy;
+}
+
+.game{
+    border-radius: 120px;
+}
+
+.parceiros{
+    background-color:white;
+    height: 600px;
+}
+
+.servicos{
+    background-color: #884EA0  ;
+}
+
+a{
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.bg-footer{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}

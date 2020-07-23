@@ -1,0 +1,58 @@
+<!Doctype html>
+<html language ="pt-br">
+<html>
+<head>
+	<meta charset "UTF - 8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<title>Navbar</title>
+</head>
+<body style="background-color: PaleTurquoise;">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand text-white" href="">Consultar CEP</a>
+		  <div class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Your CEP" aria-label="Search" id="cep">
+			<button class="btn btn-outline-success my-2 my-sm-0" onclick="consultar()">Find CEP</button>
+		  <div>
+	  </nav>
+	<div class="container progress-bar" style="margin-top: 40px; background-color: paleturquoise;">
+	  	<div class="progress">
+			<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+		</div>
+	</div>
+	<div class="container cep" style="margin-top:20px;">
+		  <div style="text-align: center;">
+			  <h3 style="font-family:'Arial Narrow Bold'; font-size: 30px;">Código de Endereçamento Local</h3>
+		  </div>
+		  <div class="row" style="margin: 20px;">
+			  <table class="table" style="font-family: 'Times New Roman'; font-size: 1.5em;">
+				  <tbody>
+					  <tr>
+						  <td>Logradouro</td>
+						  <td id="logradouro"></td>
+					  </tr>
+					  <tr>
+						  <td>Bairro</td>
+						  <td id="bairro"></td>
+					  </tr>
+					  <tr>
+						  <td>Localidade</td>
+						  <td id="localidade"></td>
+					  </tr>
+					  <tr>
+						  <td>Estado(UF)</td>
+						  <td id="uf"></td>
+					  </tr>
+					  <tr>
+						  <td>CEP</td>
+						  <td id="cep_local"></td>
+					  </tr>
+				  </tbody>
+			  </table>
+
+		  </div>
+	</div>
+<script src="JQuery-3.3.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
