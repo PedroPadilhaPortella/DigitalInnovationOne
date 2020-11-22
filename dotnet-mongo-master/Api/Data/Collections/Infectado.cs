@@ -1,4 +1,7 @@
-namespace api.Data.Collections
+using System;
+using MongoDB.Driver.GeoJsonObjectModel;
+
+namespace Api.Data.Collections
 {
     public class Infectado
     {

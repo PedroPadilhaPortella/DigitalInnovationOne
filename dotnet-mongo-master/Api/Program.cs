@@ -1,13 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
-namespace api
+namespace Api
 {
     public class Program
     {
@@ -24,7 +18,9 @@ namespace api
                 });
     }
 }
-// Urqnvv2z9ZhTlbfV
 
+
+// RXVC4acV18hXYLlO
 //mongodb+srv://api:<password>@cluster0.ghcbp.mongodb.net/<dbname>?retryWrites=true&w=majority
-//mongodb+srv://api:Urqnvv2z9ZhTlbfV@cluster0.ghcbp.mongodb.net/<dbname>?retryWrites=true&w=majority
+
+//mongodb+srv://api:RXVC4acV18hXYLlO@cluster0.ghcbp.mongodb.net/<dbname>?retryWrites=true&w=majority
