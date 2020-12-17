@@ -1,4 +1,4 @@
-# Case
+# Estrutura Case When
 marca = "sla"
 
 case marca
