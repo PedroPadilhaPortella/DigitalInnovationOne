@@ -1,4 +1,4 @@
-# Funções, bocks e lambdas
+# Funções, blocks e lambdas
 
 
 # parametros default de uma função
@@ -30,4 +30,48 @@ def produzir_de_novo(quantidade, tamanho: :m, cor: :azul)
 end
 
 produzir_de_novo(10, tamanho: 'P', cor: 'verde')
-produzir_de_novo(cor: 'branca', 16, tamanho: 'M')
+
+
+# Blocks
+require 'net/http'
+require 'json'
+
+def listar_usuarios()
+    uri = URI('http://jsonplaceholder.typicode.com/users')
+    response = Net::HTTP.get(uri)
+    yield JSON.parse(response) if block_given?
+    puts "Finalizando listagem de usuarios"
+end
+
+listar_usuarios do |usuarios|
+    usuarios.each do |usuario|
+        puts "Nome: #{usuario['name']}"
+    end
+end
+
+
+# Blocks e Procs
+def listar_usuarios2(quantidade, proc)
+    uri = URI('http://jsonplaceholder.typicode.com/users')
+    response = Net::HTTP.get(uri)
+    proc.call(quantidade)
+    yield JSON.parse(response) if block_given?
+    puts "Finalizando listagem de usuarios"
+end
+
+debug = Proc.new { |variavel| puts "Debugando variável #{variavel}" }
+
+listar_usuarios2 10, debug do |response|
+        puts "Total de usuarios: #{response.size}"
+end
+
+listar_usuarios2 10, debug
+
+
+# Lambdas
+lamb = -> (nome) { puts "Meu nome é #{nome}" }
+lamb.call("pedro")
+
+
+# Constantes = letras maiusculas
+MaxUser = 10
