@@ -109,6 +109,56 @@
       "urlIMDb": "https://www.imdb.com/title/tt2527338/?ref_=vi_md_ti",
       "genero": "Aventura",
       "id": 11
+    },
+    {
+      "titulo": "O Justiceiro",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTExODIwOTUxNzFeQTJeQWpwZ15BbWU4MDE5MDA0MTcz._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2017-06-10T03:00:00.000Z",
+      "descricao": "After the murder of his family, Marine veteran Frank Castle becomes the vigilante known as \"The Punisher,\" with only one goal in mind: to avenge them.",
+      "nota": 8.5,
+      "urlIMDb": "https://www.imdb.com/title/tt5675620/",
+      "genero": "Ação",
+      "id": 12
+    },
+    {
+      "titulo": "Shingeki no Kyojin",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2013-01-10T02:00:00.000Z",
+      "descricao": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+      "nota": 8.9,
+      "urlIMDb": "https://www.imdb.com/title/tt2560140/?ref_=nv_sr_srsg_0",
+      "genero": "Anime",
+      "id": 13
+    },
+    {
+      "titulo": "Vikings",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BODk4ZjU0NDUtYjdlOS00OTljLTgwZTUtYjkyZjk1NzExZGIzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2013-11-12T02:00:00.000Z",
+      "descricao": "Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore - and raid - the distant shores across the ocean.",
+      "nota": 8.5,
+      "urlIMDb": "https://www.imdb.com/title/tt2306299/?ref_=fn_al_tt_1",
+      "genero": "Ação",
+      "id": 14
+    },
+    {
+      "titulo": "O Procurado",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTQwNDM2MTMwMl5BMl5BanBnXkFtZTgwMjE4NjQxMTE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2008-08-22T03:00:00.000Z",
+      "descricao": "A frustrated office worker learns that he is the son of a professional assassin and that he shares his father's superhuman killing abilities.",
+      "nota": 6.7,
+      "urlIMDb": "https://www.imdb.com/title/tt0493464/?ref_=fn_al_tt_1",
+      "genero": "Ação",
+      "id": 15
+    },
+    {
+      "titulo": "Vingadores:  Ultimato",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2019-04-25T03:00:00.000Z",
+      "descricao": "After the devastating events of Vingadores: Guerra Infinita (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+      "nota": 8.4,
+      "urlIMDb": "https://www.imdb.com/title/tt4154796/?ref_=fn_al_tt_1",
+      "genero": "Ação",
+      "id": 16
     }
   ]
 }
