@@ -1,7 +1,6 @@
 package Maps;
 
-import java.util.Hashtable;
-import java.util.Map.Entry;
+import java.util.*;
 
 public class HashTables {
     public static void main(String[] args) {

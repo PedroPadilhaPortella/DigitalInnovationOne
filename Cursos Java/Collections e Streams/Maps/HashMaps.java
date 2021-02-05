@@ -1,7 +1,6 @@
 package Maps;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class HashMaps {
     public static void main(String[] args) {
@@ -33,7 +32,7 @@ public class HashMaps {
 
         System.err.println("Tamanho: " + campeoesMundiais.size()); //tamanho
 
-        for (Map.Entry<String, Integer> campeao : campeoesMundiais.entrySet()) {
+        for (Map.Entry<String, Integer> campeao : campeoesMundiais.entrySet() {
             System.out.print(campeao.getKey() + " -- " + campeao.getValue() + ", ");   
         }
 

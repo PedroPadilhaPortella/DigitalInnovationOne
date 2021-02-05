@@ -44,5 +44,11 @@ public class Comparators {
 
         Collections.sort(estudantes, new EstudanteOrdemReversa());
         System.out.println("ordem natural usando Collections.sort e new EstudanteOrdemReversa(): " + estudantes);
+    
+        // Collections.sort(Set.of(1, 5, 0, 9, 12, 23), new MapComparator());
+        // Collections.sort(Set.of(1, 5, 0, 9, 12, 23));
+        // Collections.sort(Map.of("one", 1, "five", 5, "zero", 0, "nine", 9, "twelve", 12, "twenty tree", 23));
+        // Collections.sort(Set.of(1, 5, 0, 9, 12, 23), new SetComparator());
+        // Collections.sort(List.of(1, 5, 0, 9, 12, 23));
     }
 }
