@@ -32,7 +32,7 @@ public class HashMaps {
 
         System.err.println("Tamanho: " + campeoesMundiais.size()); //tamanho
 
-        for (Map.Entry<String, Integer> campeao : campeoesMundiais.entrySet() {
+        for (Map.Entry<String, Integer> campeao : campeoesMundiais.entrySet()) {
             System.out.print(campeao.getKey() + " -- " + campeao.getValue() + ", ");   
         }
 
