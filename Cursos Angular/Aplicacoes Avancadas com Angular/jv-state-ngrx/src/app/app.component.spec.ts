@@ -10,12 +10,8 @@ describe('AppComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [
-        RouterTestingModule,
-      ],
-      declarations: [
-        AppComponent,
-      ],
+      imports: [ RouterTestingModule ],
+      declarations: [ AppComponent ],
     })
       .compileComponents();
   }));
@@ -23,7 +19,6 @@ describe('AppComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(AppComponent);
     component = fixture.componentInstance;
-
     fixture.detectChanges();
   });
 
