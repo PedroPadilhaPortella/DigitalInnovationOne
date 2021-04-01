@@ -1,0 +1,21 @@
+VueJS é um framework progressivo criado em 2013/14 por Evan You, da Google, a partir do AngularJS.
+O VueJS é um SPA composto por componentes, com renderização progressiva.
+O Nuxt.js, Gridsome e VuePress são usados na documentação do Vue.
+Possui bibliotecas VueJS para o desenvolvimento Mobile, como o NativeScript, Quasar e Vue Native.
+
+https://vuejs.org
+http://github.com/vuejs/vue
+
+Lyfecicles do VueJs?
+
+beforeCreate()
+created()
+beforeMount()
+mounted()
+beforeUpdate()
+updated()
+beforeUnmount()
+unmounted()
+
+o metodo watch funciona como um setter, ele monitora a alteração de propriedades
+e executa o que for definido no seu escopo para determinada propriedade.
