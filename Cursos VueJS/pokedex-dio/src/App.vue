@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { Pokedex } from "./components/Pokedex.vue";
+import Pokedex from "./components/Pokedex.vue";
 
 export default {
   name: 'App',
