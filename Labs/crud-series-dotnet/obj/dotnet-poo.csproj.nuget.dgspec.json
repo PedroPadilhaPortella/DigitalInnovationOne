@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro\\Documents\\GitHub\\DigitalInnovationOne\\Labs\\dotnet-poo\\dotnet-poo.csproj": {}
+    "C:\\Users\\pedro\\Documents\\GitHub\\DigitalInnovationOne\\Labs\\crud-series-dotnet\\dotnet-poo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro\\Documents\\GitHub\\DigitalInnovationOne\\Labs\\dotnet-poo\\dotnet-poo.csproj": {
+    "C:\\Users\\pedro\\Documents\\GitHub\\DigitalInnovationOne\\Labs\\crud-series-dotnet\\dotnet-poo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro\\Documents\\GitHub\\DigitalInnovationOne\\Labs\\dotnet-poo\\dotnet-poo.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\Documents\\GitHub\\DigitalInnovationOne\\Labs\\crud-series-dotnet\\dotnet-poo.csproj",
         "projectName": "dotnet-poo",
-        "projectPath": "C:\\Users\\pedro\\Documents\\GitHub\\DigitalInnovationOne\\Labs\\dotnet-poo\\dotnet-poo.csproj",
+        "projectPath": "C:\\Users\\pedro\\Documents\\GitHub\\DigitalInnovationOne\\Labs\\crud-series-dotnet\\dotnet-poo.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro\\Documents\\GitHub\\DigitalInnovationOne\\Labs\\dotnet-poo\\obj\\",
+        "outputPath": "C:\\Users\\pedro\\Documents\\GitHub\\DigitalInnovationOne\\Labs\\crud-series-dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config"
