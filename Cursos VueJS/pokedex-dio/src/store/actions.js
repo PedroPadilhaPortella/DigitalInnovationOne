@@ -39,29 +39,28 @@ export default {
 
     async searchPokemon(name) {
         const { setIsPokemonSearch, setIsSearching, setPokemonSearched, resetList, setSearchHasError } = mutations;
-
+        
         if(!name) {
             resetList();
             return; //*********** */
         }
-
+        
         try {
-            setListHasError(false);
+            setSearchHasError(false);
             setIsSearching(true);
             setIsPokemonSearch(true);
-
-            const pokemon = state.list.find(info => info.name.toLowerCase() === name.toLowerCase());
-
+            
+            const pokemon = state.tmpList.find(info => info.name.toLowerCase() === name.toLowerCase());
+            
             if(pokemon) {
                 setPokemonSearched(pokemon);
                 return;
             }
 
             await this.getPokemonByName(name);
-
+            
         } catch( err) {
             setSearchHasError(true);
-
         } finally {
             setIsSearching(false);
         }
