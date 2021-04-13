@@ -11,9 +11,7 @@ using Xunit;
 namespace Vaquinha.Integration.Tests.Fixtures
 {
     [CollectionDefinition(nameof(IntegrationWebTestsFixtureCollection))]
-    public class IntegrationWebTestsFixtureCollection : ICollectionFixture<IntegrationTestsFixture<StartupWebTests>>
-    {
-    }
+    public class IntegrationWebTestsFixtureCollection : ICollectionFixture<IntegrationTestsFixture<StartupWebTests>> { }
 
     public class IntegrationTestsFixture<TStartup> : IDisposable where TStartup : class
     {
@@ -24,9 +22,7 @@ namespace Vaquinha.Integration.Tests.Fixtures
 
         public IntegrationTestsFixture()
         {
-            var clientOption = new WebApplicationFactoryClientOptions
-            {
-            };
+            var clientOption = new WebApplicationFactoryClientOptions { };
 
             Factory = new VaquinhaAppFactory<TStartup>();
             Client = Factory.CreateClient(clientOption);
@@ -39,7 +35,6 @@ namespace Vaquinha.Integration.Tests.Fixtures
         {   
             var globalAppSettings = new GloballAppConfig();
             Configuration.Bind("ConfiguracoesGeralAplicacao", globalAppSettings);
-
             return globalAppSettings;
         }
 
